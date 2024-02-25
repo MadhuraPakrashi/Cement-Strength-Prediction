@@ -1,4 +1,4 @@
-This project involves building a predictive model to estimate the strength of a concrete mixture based on various independent variables. The main steps of the project include data manipulation, exploratory data analysis (EDA), data preprocessing, model selection, model evaluation, and some advanced techniques like feature importance analysis and learning curve generation. Here's a breakdown of the project:
+This project involves building a predictive model to estimate the strength of a concrete mixture based on various independent variables. The main steps of the project include data manipulation, exploratory data analysis (EDA), data preprocessing, model selection, model evaluation and some advanced techniques like feature importance analysis and learning curve generation. Here's a breakdown of the project:
 
 ## Importing Libraries: 
 The project begins by importing the necessary libraries, including the xgboost library, for various tasks like data manipulation, visualization, preprocessing, model selection, and evaluation.
@@ -28,7 +28,7 @@ A custom summary function is defined to calculate descriptive statistics such as
  PCA is applied to address multicollinearity by reducing the dimensionality of the dataset while retaining most of the variance.
 
 ## Model Building:
- A variety of regression models, such as Linear Regression, Lasso Regression, Ridge Regression, Decision Tree Regressor, Support Vector Regressor (SVR), K-Nearest Neighbors (KNN), Random Forest Regressor, AdaBoost Regressor, Gradient Boosting Regressor, and XGBoost Regressor, are built to predict the strength of the concrete mixture.
+ A variety of regression models, such as Linear Regression, Lasso Regression, Ridge Regression, Decision Tree Regressor, Support Vector Regressor (SVR), K-Nearest Neighbors (KNN), Random Forest Regressor, AdaBoost Regressor, Gradient Boosting Regressor and XGBoost Regressor, are built to predict the strength of the concrete mixture.
 
 ## Cross-Validation:
  Cross-validation is performed to evaluate the models' performance and check for overfitting.
@@ -51,4 +51,4 @@ A custom summary function is defined to calculate descriptive statistics such as
 ## Final Insights:
  The project concludes with insights into feature importance, model performance, and potential improvements based on the analysis and experiments conducted.
 
-Overall, this project showcases a comprehensive approach to data analysis and predictive modeling in the context of predicting the strength of concrete mixtures. It involves data preprocessing, model selection, evaluation, and various techniques to improve model performance and interpret the results.
+Overall, this project showcases a comprehensive approach to data analysis and predictive modeling in the context of predicting the strength of concrete mixtures. It involves data preprocessing, model selection, evaluation and various techniques to improve model performance and interpret the results.
